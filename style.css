@@ -1,0 +1,175 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.section01{
+    margin-bottom: 7rem;
+}
+
+.dropdown-menu{
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid #4B1AB3;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.bg-image{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn3{
+    background-color: #4B1AB3;
+    border: none;
+}
+
+.btn3:hover{
+    background-color: black;
+}
+
+.btn2{
+    margin-left: -8.7rem;
+    background-color: #4B1AB3;
+    border: none;
+}
+
+.btn2:hover{
+    background-color: black;
+}
+
+@media (max-width: 1200px) {
+    .btn2 {
+      font-size: 1rem;
+      width: 8rem;
+      margin-left: -8rem;
+    }
+}
+
+.hero-h1{
+    font-size: 3.625rem;
+}
+
+@media (max-width: 1200px) {
+    h1, .hero-h1 {
+      font-size: 2.5rem;
+    }
+}
+
+
+.hero-form{
+    width: 26rem;
+    height: 3.5rem;
+}
+
+.section02{
+    background-color: #F3F4F6;
+}
+
+.card-p1{
+    margin-left: 11rem;
+}
+
+.card-p2{
+    margin-left: 7rem;
+}
+
+
+.card-h5{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card-h5:hover{
+    color: #6940BF;
+}
+
+.section02-form{
+    background-color: white;
+}
+
+.section02-form .form-control{
+    background-color: #F3F4F6;
+}
+
+.card01{
+    border: 1px solid #d3d3d3;
+    transition: 0.5s;
+    background-color: #F3F4F6;
+}
+
+.card01:hover{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.testiomonial-01{
+    border: none;
+}
+
+.social-icons{
+    gap: 0.7rem;
+}
+
+.social-icons a{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 1rem;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    color: white;
+    background-color: #6940BF;
+}
+
+.resent-post{
+    background-color: white;
+}
+
+.card-02{
+    border: none;
+}
+
+.card-02 h6{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card-02 h6:hover{
+    color: #6940BF;
+}
+
+.work-experience{
+    background-color: white;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.p01{
+    margin-left: 4rem;
+}
+
+.p03{
+    margin-left: 5.1rem;
+}
+
+.p04{
+    margin-left: 6.5rem;
+}
